@@ -16,24 +16,16 @@ Fraudulent Transactions: 492 (only 0.172% of the dataset).
 Features: The dataset contains 30 features, including anonymized numerical features (V1, V2, ..., V28), Amount, Time, and Class.
 Class: 0 for non-fraudulent, 1 for fraudulent transactions.
 Project Structure
-plaintext
-Copy code
+
 ├── credit_card_fraud_detection.ipynb  # Jupyter notebook with the full implementation
 ├── README.md                          # Project overview and details (this file)
 └── dataset/                           # Folder to store the dataset
     └── creditcard.csv                 # The credit card fraud detection dataset
-Installation & Setup
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
+Installation & Setup
+
 Install the required dependencies: Make sure you have Python 3.7 or higher. Install the required libraries by running:
 
-bash
-Copy code
-pip install -r requirements.txt
 The main libraries used in this project are:
 
 pandas
@@ -46,9 +38,7 @@ Download the dataset from Kaggle and place it in the dataset/ directory.
 
 Run the notebook: Open the Jupyter notebook and run the code to see the results.
 
-bash
-Copy code
-jupyter notebook credit_card_fraud_detection.ipynb
+
 Key Steps
 1. Data Preprocessing
 Feature Scaling: The Amount column was scaled using StandardScaler to standardize the values.
