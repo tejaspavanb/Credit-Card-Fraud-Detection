@@ -7,7 +7,6 @@
 Credit card fraud detection is a crucial application of machine learning that aims to identify fraudulent transactions in large datasets. 
 In this project, I build a machine learning model to detect fraudulent credit card transactions using a highly imbalanced dataset from Kaggle
 
-
 This project covers:
 - Data preprocessing and feature scaling.
 - Handling class imbalance using **SMOTE (Synthetic Minority Over-sampling Technique)**.
