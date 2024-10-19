@@ -1,5 +1,3 @@
-Sure! Here's a detailed **README** file that you can use for your **Credit Card Fraud Detection** project on GitHub. Feel free to modify it according to your specific project setup and results.
-
 ---
 
 # Credit Card Fraud Detection
